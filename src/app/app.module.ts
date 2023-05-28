@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbdAlertBasic } from './Components/alert-basic.component';
+import { NgbdTableBasic } from './Components/table-basic.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NgbdAlertBasic } from './Components/alert-basic.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    NgbdAlertBasic
+    NgbdAlertBasic,
+    NgbdTableBasic
   ],
   providers: [],
   bootstrap: [AppComponent]
